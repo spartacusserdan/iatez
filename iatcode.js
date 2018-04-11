@@ -4,7 +4,7 @@
     <title>TEST</title>
   </head>
   <body>
-    <a target="_blank" href="spartacusserdan.github.io/iatez.js">go to my test experiment!</a>
+    <a target="_blank" href="spartacusserdan.github.io/iatez/iatcode.js">go to my test experiment!</a>
   </body>
 </html>
 
