@@ -5,17 +5,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 	 * @param  {Object} options Options that replace the defaults...
 	 * @return {Object}         PIP script
 	**/
-API.addTasksSet({
-    iat : [{
-        type: 'pip', name: 'iat', version: '0.3', scriptUrl: 'iatrace.js'
-    }]
-});
+
 	function iatExtension(options)
 	{
 		var API = new APIConstructor();
 		var scorer = new Scorer();
 		var piCurrent = API.getCurrent();
 
+		
+		API.addTasksSet({
+    iat : [{
+        type: 'pip', name: 'iat', version: '0.3', scriptUrl: 'iatrace.js'
+    }]
+});
 		//Here we set the settings of our task. 
 		//Read the comments to learn what each parameters means.
 		//You can also do that from the outside, with a dedicated jsp file.
