@@ -12,12 +12,6 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		var scorer = new Scorer();
 		var piCurrent = API.getCurrent();
 
-		
-		API.addTasksSet({
-    iat : [{
-        type: 'pip', name: 'iat', version: '0.3', scriptUrl: 'iatrace.js'
-    }]
-});
 		//Here we set the settings of our task. 
 		//Read the comments to learn what each parameters means.
 		//You can also do that from the outside, with a dedicated jsp file.
