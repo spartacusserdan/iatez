@@ -5,7 +5,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 	 * @param  {Object} options Options that replace the defaults...
 	 * @return {Object}         PIP script
 	**/
-
+API.addTasksSet({
+    iat : [{
+        type: 'pip', name: 'iat', version: '0.3', scriptUrl: 'iatrace.js'
+    }]
+});
 	function iatExtension(options)
 	{
 		var API = new APIConstructor();
