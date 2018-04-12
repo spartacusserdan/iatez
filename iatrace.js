@@ -1,4 +1,4 @@
-define(['/implicit/common/all/js/pip/piscripts/iat/iat5.js'], function(iatExtension){
+define(['/iatez/iat5.js'], function(iatExtension){
 	return iatExtension({
 		category1 : {
 			name : 'Black People', //Will appear in the data.
